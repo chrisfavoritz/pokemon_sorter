@@ -7,7 +7,7 @@ final getIt = GetIt.instance;
 
 void setupGetIt() {
   // state management layer
-  getIt.registerLazySingleton<CardSorter>(() => CardSorter());
+  //getIt.registerLazySingleton<CardSorter>(() => CardSorter());
 
   getIt.registerLazySingleton<StorageService>(() => SharedPreferencesStorage());
 
